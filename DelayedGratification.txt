@@ -1,4 +1,6 @@
-n a recent project I was working on I encountered a problem with one of the APIs I was accessing. The API was responding very slowly due to the size of the messages returned. This caused the web site I was creating to seem delayed in its response. As the web site was expecting people to be accessing it on a regular basis it made more sense to show older data instead of forcing the user to wait.
+
+
+On a recent project I was working on I encountered a problem with one of the APIs I was accessing. The API was responding very slowly due to the size of the messages returned. This caused the web site I was creating to seem delayed in its response. As the web site was expecting people to be accessing it on a regular basis it made more sense to show older data instead of forcing the user to wait.
 
 A simple solution would be to use asynchronous ajax calls but as there was a lot of data to be cached I decided to try using web workers and LocalDB for caching.
 
